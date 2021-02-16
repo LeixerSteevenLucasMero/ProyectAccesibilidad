@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--lenguaje en español-->
+<html lang="español">
+  <head>
+    <meta charset="utf-8" /><!--Codificacion UTF-8 estandardizada en HTML5-->
+    <meta content="width=device-width, initial-scale=1" name="viewport" /><!--contenido asignado y nombre asignado-->
+    <title>Mi Portafolio: Leixer Lucas</title><!--nombre del la pagina-->
+    <link href="styles.css" rel="stylesheet" /><!--referencia a styles.css-->
+    <link rel="icon" type="imagenes/png" href="imagenes/percy.jpg"><!--logo de imagen en nombre de la pagina-->
+    <!--referencia de estilos de las letras-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <header>
+        <!--imagen de portada> mi foto-->
+        <img class="header-img" src="imagenes/percy.jpg" alt="Imagen de Leixer"> </img>
+        <!--texto de mi nombre-->
+        <h3 class="header">
+          Leixer Steeven Lucas Mero
+        </h3>
+        <!--texto del semestre-->               <!--CAMBIAR SUBTITLE-->
+        <h2 class="subtitle">
+            Curso 4<sup>to</sup> "B"
+        </h2>
+
+        <!--navegacion para las tres palabras-->                    <!--CAMBIAR NAVEGACION-->
+        <nav>
+            <ul class="navigation">
+                <li class="nav-item"><a href="#">Acerca de</a> </li>
+                <li class="nav-item"> <a href="#">Mis Proyectos</a> </li>
+                <li class="nav-item"> <a href="#">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+                                            <!--SECCION TEXTO SOBRE LEIXER-->
+            <h2 class="header">
+                Acerca de Leixer
+            </h2>
+            <p class="intro">
+                <br> Hola mi nombre es Leixer Steeven Lucas Mero 👋, Soy Ecuatoriano  y soy un estudiante de la FACCI 🧑🏻‍💻 en la Universidad Laica "Eloy Alfaro" de Manabi. </br> 
+                <br> En este momento estoy cursando el quinto semestre de la Carrera de ingenieria en Tecnologia de la Informacion y Comunicacion🖥️.</br>
+                <br> Me gusta los animales y me gusta la musica en general 🎶. Yo tengo una guitarra 🎸 que me costo aproximadamente 100 dolares. Me gusta tocar la guitarra cuando estoy sin hacer nada o cuando estoy desaminado😔.</br>
+                <br> Tocar la guitarra me ayuda mucho a desestresarme. </br>
+                <br> Yo tengo 6 perritos de raza pequeña 🐕, tres son machos y tres son hembras. </br>
+                <br> En el apartado inferior de este proyecto podran ver imagenes de mis mascotas con son muy importante para mi y una foto de mi guitarra</br>
+      
+
+                                            <!--PARTE DE LAS REDES-->
+                <ul class="social-media">
+                    <li>
+                        <!--direccion a mi twitter-->                  
+                        <a href="https://twitter.com" target="_blank">
+                            <!--imagen twitter-->
+                            <img src="imagenes/twitter.png" alt="Twitter de Leixer">
+                            <p class="social-link-text">Twitter</p><!--clase social-link-text direccionada a css-->
+                         </a>
+                    </li>
+
+                    <li>
+                        <!--direccion a mi github-->
+                        <a href="https://github.com" target="_blank">
+                            <!--imagen de logo github-->
+                            <img src="imagenes/github-logo.png" alt="Github de Leixer"/>
+                            <p class="social-link-text">Github</p><!--clase social-link-text direccionada a css-->
+                            </a>
+                    </li>
+        
+                    <li>
+                        <!--direccion mi linkedin-->
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <!--imagen de logo linkedin-->
+                            <img src="imagenes/linkedin.png" alt="Linkedin Leixer "/>
+                            <p class="social-link-text">Linkedin</p><!--clase social-link-text direccionada a css-->
+                        </a>
+                    </li>
+                </ul>
+            </p> 
+ 
+        </section>
+
+                                            <!--SECCION MIS PROYECTOS-->
+        <section>
+            <h2 class="header">
+                Mis Proyectos
+            </h2>
+            <div class="carousel">
+                <!--boton para el carrosel de las imagenes-->
+                <button class="arrow arrow-left" aria-label="Boton para ir hacia atrás"></button>
+                <div class="window"><!--clase direccionada a javascrip-->
+                    <ul class="project-container">
+
+                        <li class="project1-container">
+                            <button class="project1 project">
+                                <!--imagen de perro luca-->
+                                <img src="imagenes/luca.jpg" class="project-img" alt="perro luca">
+                            </button>
+                        </li>
+
+                        
+                        <li class="project3-container">
+                            <button class="project3 project">
+                                <!--imagen de perro baster-->
+                                <img src="imagenes/baster.jpg" class="project-img" alt="perro baster">
+                            </button>
+                        </li>
+
+                        
+                        <li class="project4-container" aria-hidden="true">
+                            <button class="project4 project" tabindex="-1">
+                                <!--imagen de perro dayco-->
+                                <img src="imagenes/daico.jpg" class="project-img" alt="perro Dayco">
+                            </button>
+                        </li>
+
+
+                        <li class="project5-container" aria-hidden="true">
+                            <button class="project5 project" tabindex="-1">
+                                <!--imagen de perro escay-->
+                                <img src="imagenes/escay.jpg" class="project-img" alt="perro escay">
+                            </button>
+                        </li>
+
+
+                        <li class="project5-container">
+                            <button class="project5 project">
+                                <!--imagen de guitarra-->
+                                <img src="imagenes/guitarra.jpg" class="project-img" alt="imagen guitarra">
+                            </button>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!--Boton para ir hacia la derecha-->
+                <button class="arrow arrow-right" aria-label="Boton para ir hacia adelante"></button>
+                </div>
+                </section>
+                </main>
+
+                <!--APARTADO CONTACTO-->
+                <footer class="contact-section">
+                    <h2 class="header">
+                        Contacto
+                    </h2>
+                    <p class="intro">
+                        Para manderme un mensaje puedes usar el formulario que sigue
+                    </p>
+                    <form class="form-container">
+                        <label class="form-label">
+                            Nombre
+                        </label>
+                        <!--entrada de texto nombre-->
+                        <input type="text" aria-label="nombre" id="name"/>
+                        <span id="name-error" aria-live="assertive"></span> <br/>
+                        <label class="form-label">
+                            Correo
+                        </label>
+                        <!--entrada de texto correo-->
+                        <input type="text" aria-label="correo"/> <br />
+                        <label class="message-input">Mensaje <input type="text" /> <br/>  </label>
+                        <!--boton enviar-->
+                        <button class="send-button">
+                            Enviar
+                        </button>
+                    </form>
+                </footer>
+
+                <!--APARTADO DENTRO DE LOS PROYECTOS-->
+                <div class="notification" aria-live="assertive"></div>
+                <div class="modal-container">
+                    <div class="modal">
+                        <!--nombre del proyecto-->
+                        <h2 class="header" id="modal-header" tabindex="0"> 
+                            Proyecto x
+                        </h2>
+                        <!--imagen asignada para el proyecto> imagen mileidy-->
+                        <img src="imagenes/mileidy.jpg" class="modal-project-image" alt="pantallazo de mi perrito"/>
+                        <!--boton para salir del proyecto-->
+                        <button class="modal-button">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+                <script src="index.js" type="text/javascript"></script><!--direccion a javascrip-->
+    </body>
+</html>
